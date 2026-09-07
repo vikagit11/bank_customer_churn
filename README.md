@@ -5,8 +5,6 @@ ML-сервис для прогнозирования вероятности у�
 
 Датасет: https://www.kaggle.com/datasets/radheshyamkollipara/bank-customer-churn/data
 
-Проект использует модель CatBoost для предсказания churn, SHAP для объяснения предсказаний, PostgreSQL для хранения данных о клиентах и Redis для кэширования результатов.
-
 ## Technologies
 
 - Python
