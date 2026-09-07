@@ -21,39 +21,42 @@ ML-сервис для прогнозирования вероятности у�
 ## Запуск проекта
 
 1. Клонировать репозиторий.
- ```bash
+
+```bash
 git clone https://github.com/vikagit11/bank_customer_churn.git
 cd bank_customer_churn
+```
 
-2. Cоздать файл .env
-  ```env
- DB_HOST=localhost
- DB_NAME=bank_churn
- DB_USER=postgres
- DB_PASSWORD=your_password
- DB_PORT=5433
+2. Создать файл `.env`.
 
- REDIS_HOST=redis
- REDIS_PORT=6379
+```env
+DB_HOST=localhost
+DB_NAME=bank_churn
+DB_USER=postgres
+DB_PASSWORD=your_password
+DB_PORT=5433
 
- POSTGRES_DB=bank_churn
- POSTGRES_USER=postgres
- POSTGRES_PASSWORD=your_password
-  ```
+REDIS_HOST=redis
+REDIS_PORT=6379
 
-3. Docker Compose:
+POSTGRES_DB=bank_churn
+POSTGRES_USER=postgres
+POSTGRES_PASSWORD=your_password
+```
+
+3. Запустить Docker Compose.
 
 ```bash
 docker compose up --build
+```
 
 После запуска API будет доступно по адресу:
 
-http://localhost:8000
+`http://localhost:8000`
 
 Swagger-документация:
 
-http://localhost:8000/docs
-
+`http://localhost:8000/docs`
 
 
 ## Architecture
