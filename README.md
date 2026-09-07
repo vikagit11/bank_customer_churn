@@ -39,6 +39,7 @@ cd bank_customer_churn
  POSTGRES_DB=bank_churn
  POSTGRES_USER=postgres
  POSTGRES_PASSWORD=your_password
+  ```
 
 3. Docker Compose:
 
